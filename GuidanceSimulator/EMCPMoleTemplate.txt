@@ -1,0 +1,1 @@
+﻿Deq.Replace<{0}>(() => {1}({2}), () => PexChoose.Value<{0}>("mock"));

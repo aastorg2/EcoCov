@@ -1,0 +1,10 @@
+﻿            if ({0} != null)
+            {{
+                    var field{2} = {0}.GetType().GetField("{1}", System.Reflection.BindingFlags.Public |
+                                               System.Reflection.BindingFlags.NonPublic |
+                                               System.Reflection.BindingFlags.Instance);
+                    var fieldobj{2} = field{2}.GetValue({0});
+
+                    {3}
+
+            }}
